@@ -92,7 +92,7 @@ const PaperSubmissionForm = () => {
                         <div className="space-y-4">
                             <img src="/OAU-logo.png" className='mx-auto w-56' alt="" />
                             <h2 className="text-2xl font-bold text-center">IFE Journal of Information and Communication Technology</h2>
-                            <p className='text-2xl font-medium text-center underline'>Call for Papers</p>
+                            <p className='text-2xl font-medium text-center underline'>Paper Submission Page</p>
                             <div>
                                 <Label htmlFor="first_name" className="py-2">First Name<span className='text-red-500'>*</span></Label>
                                 <Input 
