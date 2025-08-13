@@ -195,7 +195,7 @@ const PaperSubmissionForm = () => {
                             </div> 
     
                             <div>
-                                <Label htmlFor="abstract" className="py-2">Abstract<span className='text-red-500'>*</span> </Label>
+                                <Label htmlFor="abstract" className="py-2">Abstract<span className='text-red-500'>*</span> <span className='font-normal'>(Max 250words.)</span></Label>
                                 <Textarea
                                     id="abstract" 
                                     name="abstract"
@@ -203,7 +203,8 @@ const PaperSubmissionForm = () => {
                                     onChange={handleChange}
                                     onBlur={handleBlur}
                                     required
-                                    className="h-[150px]"
+                                    className="h-[100px]"
+                                    maxLength={250}
                                 >
                                 </Textarea>
                                 {touched?.abstract && errors?.abstract && <div className='error-feedback'>{errors?.abstract}</div>}
