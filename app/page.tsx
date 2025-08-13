@@ -23,7 +23,7 @@ export type State = {
   status?: number;
 };
 
-const FellowshipForm = () => {
+const PaperSubmissionForm = () => {
 
     const [isSubmitting, setIsSubmitting] = useState(false);
     const [formSubmitted, setFormSubmitted] = useState(false);
@@ -251,4 +251,4 @@ const FellowshipForm = () => {
   )
 }
 
-export default FellowshipForm;
+export default PaperSubmissionForm;
